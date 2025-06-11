@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Mulish', sans-serif;
 }
 
 ul {
@@ -17,6 +18,7 @@ a {
     gap: 30px;
     padding: 8px;
     box-sizing: border-box;
+    padding-left: 16px;
 }
 
 .links {
@@ -46,11 +48,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
-    background: rebeccapurple;
     margin-bottom: 20px;
-    border-radius: 0px 0px 10px 10px;
-    gap: 20px;
+    gap: 16px;
+}
+
+.header{
+    background: linear-gradient(#3F72AF, #B3D9FF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 20px;
+    gap: 30px;
 }
 
 .location {
@@ -88,6 +97,9 @@ a {
 }
 
 .cv-file{
-    width: 95%;
-    height: 520px;
+    display: none;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
 }
