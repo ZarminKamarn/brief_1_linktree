@@ -103,7 +103,7 @@ a {
 }
 
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora';
     font-size: 36px;
 }
 
@@ -136,6 +136,10 @@ h1{
     text-align: center;
 }
 
+.qr-code-white{
+    display: none;
+}
+
 @media screen and (min-width: 676px) {
     .page{
         width: 60%;
@@ -162,5 +166,15 @@ h1{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .qr-code-white{
+        display: block;
+    }
+
+    .qr-code-black{
+        display: none;
     }
 }
